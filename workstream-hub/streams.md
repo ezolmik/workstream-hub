@@ -17,10 +17,15 @@
 
 # Workstream állapotjelentés
 
-## ✅ erste-delivery
+## ✅ gergo -architecture
 Haladás: ✅ TAD módszertani feldolgozás kész.  
 Állapot: ⏸ Gergő visszajelzésére várunk a customization fázis elindításához.  
 Utolsó milestone: `TAD struktúra finalizálva – 2025-06-24`
+
+## 🕓 viki-valtozaskezeles
+Haladás: 🕓 Tenderanyag megvan, feldolgozás előkészítve  
+Állapot: ⏸ Viki iránymutatására várunk a scope és célok tisztázásához  
+
 
 ## ⚙️ ai-saas-agents
 Haladás: 🟡 Előkészítő anyagok feltöltve, transcript elemzés folyamatban.  
