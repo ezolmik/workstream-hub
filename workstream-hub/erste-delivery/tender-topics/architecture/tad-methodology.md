@@ -35,3 +35,15 @@ A TAD módszertan használata (s folyamatos fejlesztése) közel 10 éves múltr
 * [Ütemezés](./tad/planning-timeline.md)
 * [Stakeholder szerepkörök](./tad/stakeholder-roles.md)
 * [Projekt feltételezések](./tad/project-assumptions.md)
+
+## Testreszabási fázis (2025. július – október)
+
+A módszertan testreszabása során az Erste Bank architecture squad:
+
+* végigmegy a fenti fázisokon és segédleteken,
+* kialakítja a bank-specifikus sablonokat, kérdőíveket, értékelési szempontokat,
+* összehangolja a belső szereplőkkel (pl. IT vezetők, application ownerök),
+* véglegesíti a leszállítandók formátumát,
+* és előkészíti a GAP analízis, KPI, roadmap szállítást.
+
+> A testreszabás munkaterülete: [./tad/customization/](./tad/customization/) – itt lesznek az Erste-specifikus anyagok és munkavázlatok.
