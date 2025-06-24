@@ -1,46 +1,60 @@
-### Javasolt fájlnév és tartalom
-
-Hozz létre egy fájlt a következő néven:
-
-```
-tender-topics/architecture/tad-methodology.md
-```
-
-És másold be az alábbi strukturált tartalmat:
-
----
-
 # Mindspire TAD módszertan
 
 ## Módszertani háttér
 
 A TAD módszertan használata (és folyamatos fejlesztése) közel 10 éves múltra tekint vissza. Az architektúra tervezés során bevált best practice-eket alkalmaz (kérdőívek, sablonok, folyamatleírások), amelyek garantálják a feladatok minőségi elvégzését.
 
-## Referenciák
+## Jellemzők
 
-A módszertan korábbi alkalmazási helyei:
+* A felmérés során az alkalmazás elemeket **BIAN domain** alapú csoportosítás szerint vizsgáljuk.
+* Az alkalmazásokat három kategóriába soroljuk:
 
-* MBH Bank – jövőkép tervezés
-* Raiffeisen Bank Albánia
-* OTP Bank csoport: Szlovénia, Albánia, Montenegró, Bulgária, Szerbia, Horvátország, Moldávia, Üzbegisztán
-* KDB Bank
-* OTP Bank Magyarország CBS projekt, K\&H Spirit program
+  * **Kritikus**
+  * **Nem kritikus**
+  * **Nem releváns**
+* A **kritikus alkalmazások** kerülnek részletes feltérképezésre, mivel ezek adják a jövőbeli architektúra gerincét.
+* Kiemelt figyelmet kapnak olyan rendszerek, mint a **Symbols**, **adatárház**, **RTPE**, amelyek más alkalmazásokkal erős kapcsolatban állnak.
+* A kritikus alkalmazásokhoz jövőbeli célarchitektúra koncepció készül, míg a nem kritikus elemeket elemzéssel illesztjük a jövőképbe.
+
+## Főbb szakaszok
+
+A feladatvégzés 6 fő szakaszból áll:
+
+1. Előkészítés
+2. Adatgyűjtés és feldolgozás
+3. Workshopok
+4. Részletes elemzés
+5. Követő feladatok
+6. Lezárás és jóváhagyás
+
+*(A szakaszokhoz tartozó konkrét feladatokat és eredménytermékeket a részletes dokumentáció tartalmazza.)*
 
 ## Célok
 
-A projekt eredményeként a bank:
+* Átfogó kép a bank jelenlegi IT architektúrájáról
+* Döntés-előkészítő anyagok az alkalmazásokról
+* 5 éves jövőkép a banki célarchitektúráról, amely megfelel:
 
-* Átfogó képet kap a jelenlegi IT architektúrájáról
-* Döntés-előkészítő anyagokat kap alkalmazásokra
-* Egy 5 éves jövőképet a banki célarchitektúráról, figyelembe véve:
+  * az **Erste Group** sztenderdjeinek
+  * az iparági elvárásoknak (pl. **cloud képességek**)
+* KPI-ok és irányelvek a jövőbeli architektúra nyomon követéséhez
 
-  * Erste Group sztenderdjeit
-  * Iparági elvárásokat (pl. cloud képességek)
-* KPI-okat és irányelveket az architektúra jövőkép nyomon követésére
+## Referenciák
 
-## Folyamat lépései
+A módszertant az alábbi intézményeknél alkalmazták:
 
-1. Információk begyűjtése
-2. Elemzés
-3. Architektúra koncepció kialakítása
+* MBH Bank
+* Raiffeisen Bank Albánia
+* OTP Bank: Szlovénia, Albánia, Montenegró, Bulgária, Szerbia, Horvátország, Moldávia, Üzbegisztán
+* KDB Bank
+* OTP Bank Magyarország CBS projekt
+* K\&H Spirit program
 
+## Munkamegosztás a résztvevők között
+
+| Erste Bank IT                          | Erste Bank Business          | Mindspire                                     |
+| -------------------------------------- | ---------------------------- | --------------------------------------------- |
+| Dokumentumok gyűjtése                  | Egyeztetések / workshopok    | Módszertan                                    |
+| Egyeztetések / workshopok              | Részletes elemzés            | Koordináció                                   |
+| Részletes elemzésben való közreműködés | Javaslattétel, döntéshozatal | Részletes elemzés és workshopok lebonyolítása |
+| Döntéshozatal                          |                              | Dokumentáció                                  |
