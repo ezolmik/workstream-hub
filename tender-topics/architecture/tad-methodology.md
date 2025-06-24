@@ -2,74 +2,36 @@
 
 ## Módszertani háttér
 
-A TAD módszertan használata (és folyamatos fejlesztése) közel 10 éves múltra tekint vissza. Az architektúra tervezés során bevált best practice-eket alkalmaz (kérdőívek, sablonok, folyamatleírások), amelyek garantálják a feladatok minőségi elvégzését.
+A TAD módszertan használata (s folyamatos fejlesztése) közel 10 éves múltra tekint vissza. Az architektúra tervezési gyakorlatban ismert best practice-eket és eszközöket (kérdőívek, sablonok, folyamatleírások) alkalmaz, amelyek garantálják a magas minőségű teljesítést.
 
 ## Jellemzők
 
-* A felmérés során az alkalmazás elemeket **BIAN domain** alapú csoportosítás szerint vizsgáljuk.
-* Az alkalmazásokat három kategóriába soroljuk:
-
-  * **Kritikus**
-  * **Nem kritikus**
-  * **Nem releváns**
-* A **kritikus alkalmazások** kerülnek részletes feltérképezésre, mivel ezek adják a jövőbeli architektúra gerincét.
-* Kiemelt figyelmet kapnak olyan rendszerek, mint a **Symbols**, **adatárház**, **RTPE**, amelyek más alkalmazásokkal erős kapcsolatban állnak.
-* A kritikus alkalmazásokhoz jövőbeli célarchitektúra koncepció készül, míg a nem kritikus elemeket elemzéssel illesztjük a jövőképbe.
-
-## Főbb szakaszok
-
-A feladatvégzés 6 fő szakaszból áll:
-
-1. Előkészítés
-2. Adatgyűjtés és feldolgozás
-3. Workshopok
-4. Részletes elemzés
-5. Követő feladatok
-6. Lezárás és jóváhagyás
-
-*(A szakaszokhoz tartozó konkrét feladatokat és eredménytermékeket a részletes dokumentáció tartalmazza.)*
+* A vizsgálat BIAN domain logikán alapul.
+* Alkalmazásokat három kategóriába soroljuk: **kritikus**, **nem kritikus**, **nem releváns**.
+* Külön figyelmet kapnak: Symbols, CBS, adatárház, RTPE stb.
+* Külön értékelési módszertan, kérdőív.
 
 ## Célok
 
 * Átfogó kép a bank jelenlegi IT architektúrájáról
-* Döntés-előkészítő anyagok az alkalmazásokról
-* 5 éves jövőkép a banki célarchitektúráról, amely megfelel:
-
-  * az **Erste Group** sztenderdjeinek
-  * az iparági elvárásoknak (pl. **cloud képességek**)
-* KPI-ok és irányelvek a jövőbeli architektúra nyomon követéséhez
+* 5 éves jövőkép a banki architektúráról
+* KPI-ok, nyomon követés, dokumentált döntések
 
 ## Referenciák
 
-A módszertant az alábbi intézményeknél alkalmazták:
-
-* MBH Bank
-* Raiffeisen Bank Albánia
-* OTP Bank: Szlovénia, Albánia, Montenegró, Bulgária, Szerbia, Horvátország, Moldávia, Üzbegisztán
-* KDB Bank
-* OTP Bank Magyarország CBS projekt
-* K\&H Spirit program
-
-## Munkamegosztás a résztvevők között
-
-| Erste Bank IT                          | Erste Bank Business          | Mindspire                                     |
-| -------------------------------------- | ---------------------------- | --------------------------------------------- |
-| Dokumentumok gyűjtése                  | Egyeztetések / workshopok    | Módszertan                                    |
-| Egyeztetések / workshopok              | Részletes elemzés            | Koordináció                                   |
-| Részletes elemzésben való közreműködés | Javaslattétel, döntéshozatal | Részletes elemzés és workshopok lebonyolítása |
-| Döntéshozatal                          |                              | Dokumentáció                                  |
+* MBH Bank, Raiffeisen Albánia, OTP csoport (Szlovénia, Albánia, stb.), KDB, K\&H CBS, Spirit program
 
 ## Részletes fázisleírások és segédletek
 
-- [Fázis 1: Előkészítés](./tad/phase-01-elokeszites.md)
-- [Fázis 2: Adatgyűjtés és feldolgozás](./tad/phase-02-adatgyujtes.md)
-- [Fázis 3: Onsite workshopok](./tad/phase-03-workshopok.md)
-- [Fázis 4: Részletes elemzés](./tad/phase-04-reszletes-elemzes.md)
-- [Fázis 5: Követő feladatok](./tad/phase-05-koveto-feladatok.md)
-- [Fázis 6: Lezárás és jóváhagyás](./tad/phase-06-lezaras.md)
-- [Értékelési szempontok (minta)](./tad/evaluation-criteria.md)
-- [To-be architektúra design folyamat](./tad/to-be-design-flow.md)
-- [Minta leszállítandók](./tad/sample-deliverables.md)
-- [Ütemezés](./tad/planning-timeline.md)
-- [Stakeholder szerepkörök](./tad/stakeholder-roles.md)
-- [Projekt feltételezések](./tad/project-assumptions.md)
+* [Fázis 1: Előkészítés](./tad/phase-01-elokeszites.md)
+* [Fázis 2: Adatgyűjtés és feldolgozás](./tad/phase-02-adatgyujtes.md)
+* [Fázis 3: Onsite workshopok](./tad/phase-03-workshopok.md)
+* [Fázis 4: Részletes elemzés](./tad/phase-04-reszletes-elemzes.md)
+* [Fázis 5: Követő feladatok](./tad/phase-05-koveto-feladatok.md)
+* [Fázis 6: Lezárás és jóváhagyás](./tad/phase-06-lezaras.md)
+* [Értékelési szempontok (minta)](./tad/evaluation-criteria.md)
+* [To-be architektúra design folyamat](./tad/to-be-design-flow.md)
+* [Minta leszállítandók](./tad/sample-deliverables.md)
+* [Ütemezés](./tad/planning-timeline.md)
+* [Stakeholder szerepkörök](./tad/stakeholder-roles.md)
+* [Projekt feltételezések](./tad/project-assumptions.md)
