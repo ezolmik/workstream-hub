@@ -46,4 +46,4 @@ A módszertan testreszabása során az Erste Bank architecture squad:
 * véglegesíti a leszállítandók formátumát,
 * és előkészíti a GAP analízis, KPI, roadmap szállítást.
 
-> A testreszabás munkaterülete: [./tad/customization/](./tad/customization/) – itt lesznek az Erste-specifikus anyagok és munkavázlatok.
+> A testreszabás munkaterülete: [./tad/customization/](../../customization/) – itt lesznek az Erste-specifikus anyagok és munkavázlatok.

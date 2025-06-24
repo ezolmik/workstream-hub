@@ -14,3 +14,19 @@
 - AI-agent vezérelt munkafolyamatok, indie SaaS építés.
 - Cursor IDE, MCP, Viktor Farcic modell alapján.
 - 📂 [`ai-saas-agents/`](./ai-saas-agents/)
+
+# Workstream állapotjelentés
+
+## ✅ erste-delivery
+Haladás: ✅ TAD módszertani feldolgozás kész.  
+Állapot: ⏸ Gergő visszajelzésére várunk a customization fázis elindításához.  
+Utolsó milestone: `TAD struktúra finalizálva – 2025-06-24`
+
+## ⚙️ ai-saas-agents
+Haladás: 🟡 Előkészítő anyagok feltöltve, transcript elemzés folyamatban.  
+Következő: agent szerepkörök pontosítása + első workflow script draft.
+
+## 🧪 stekkio-course
+Haladás: 🟢 Caddy & DNS deep-dive szakasz halad.  
+Következő: MVP alapú fullstack timer app build tesztelése (Maja projekt).
+
