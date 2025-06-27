@@ -48,6 +48,28 @@
 
   * Mikorra javasolt az alkalmazás modernizációja/kivezetése (negyedév vagy év formátumban).
 
+### Fejlesztői Kapacitás és Aktivitás
+
+* **Fejlesztők száma**
+
+  * Az aktív fejlesztők számát rögzíti, jelezve a kapacitás mértékét.
+
+* **Fejlesztési aktivitás**
+
+  * Az alkalmazás fejlesztési intenzitását jelzi (magas/közepes/alacsony, pl. heti commitok alapján), segítve azonosítani a fejlesztési dinamikát és a projekt tervezését.
+
+### Beszállítói információk
+
+* **Beszállító típusa**
+
+  * Megjelöli, hogy belső (saját fejlesztői csapat) vagy külső (szállítói partner) fejlesztésű az alkalmazás. Fontos szerződéses és szervezési információkat jelez előre.
+
+### Szállítás formátuma
+
+* **Szállítás módja**
+
+  * Egyértelműen jelöli, hogy az alkalmazás forráskód, bináris vagy konténer (pl. Docker image) formájában kerül-e szállításra, amely közvetlenül hatással van a modernizációs tervezésre (pl. migráció, konténerizáció stratégia).
+
 ---
 
 ### Magyarázat, miért szükséges minden oszlop:
@@ -63,5 +85,18 @@
 
 * **Modernizációs státusz, Tervezett jövőkép, Javasolt ütemezés**:
   Egyértelmű irányt és megvalósítási tervet ad a későbbi architektúra-tervezéshez.
+
+* **Fejlesztők száma és Fejlesztési aktivitás**
+
+  * Meghatározza, milyen erőforrás-igény van az alkalmazás fenntartására és modernizációjára, valamint lehetővé teszi az erőforrás-tervezést és priorizálást.
+
+* **Beszállító típusa**
+
+  * Segíti az IT-szervezeti struktúra átláthatóságát, illetve a külső-belső koordinációt a jövőbeli modernizációs projektekben.
+
+* **Szállítás módja**
+
+  * Meghatározza a technikai modernizációs folyamatokat, és segíti a modernizáció vagy konszolidáció technológiai stratégiáinak meghatározását.
+
 
 Ez a struktúra egyszerűen bővíthető később, de jelen formájában lefedi a tender kiírás célját, és lehetővé teszi az alkalmazás architektúra-újragondolási kezdeményezés hatékony elindítását.
